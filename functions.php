@@ -20,4 +20,15 @@ function load_javascript()
 }
 
 add_action('wp_enqueue_scripts', 'load_javascript');
+
+// enable menu for wordpress panel
+add_theme_support( 'menus');
+
+// register_menus array
+register_nav_menus( 
+    array(
+        'top_menu' => __('Top Menu'),
+        'menu_class' => 'top-menu d-flex'
+    )
+);
 ?>
