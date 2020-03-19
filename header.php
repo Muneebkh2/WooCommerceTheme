@@ -3,7 +3,8 @@
 
 <head>
     <title></title>
-
+    <!-- google fonts embeded -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
     <?php wp_head();?>
 </head>
 
@@ -11,7 +12,7 @@
 
     <header>
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg navbar-light px-0">
                 <!-- brand logo -->
                 <a class="navbar-brand" href="#">
                     <img src="<?php bloginfo('template_directory'); ?>/assets/images/logo.png" alt="" class="logo">
@@ -26,7 +27,9 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <?php
                         // add top navigation menu. 
-                        wp_nav_menu( array('theme_location' => 'top_menu') );
+                        wp_nav_menu( array(
+                            'theme_location' => 'top_menu',
+                            'menu_class' => 'top-menu ml-auto') );
                     ?>
                 </div>
             </nav>
