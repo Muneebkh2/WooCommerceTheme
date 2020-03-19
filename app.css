@@ -10884,7 +10884,30 @@ a.text-dark:focus {
 
 header {
   background: #fff;
-  height: 100px;
+  padding: 0rem 0;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+}
+
+header .navbar-brand .logo {
+  width: 150px;
+}
+
+header .top-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header .top-menu li {
+  list-style-type: none;
+}
+
+header .top-menu li a {
+  display: block;
+  padding: 0.25rem 1rem;
+  color: #28a745;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: capitalize;
 }
 
