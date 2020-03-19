@@ -8,3 +8,9 @@
 </head>
 
 <body <?php body_class( 'main_body' )?>>
+
+<header>
+    <div class="container">
+    
+    </div>
+</header>
