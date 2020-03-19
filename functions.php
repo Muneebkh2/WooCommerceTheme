@@ -21,14 +21,27 @@ function load_javascript()
 
 add_action('wp_enqueue_scripts', 'load_javascript');
 
-// enable menu for wordpress panel
-add_theme_support( 'menus');
+// enable options for wordpress panel
+add_theme_support('menus');
+add_theme_support('post-thumbnails');
+
 
 // register_menus array
 register_nav_menus( 
     array(
-        'top_menu' => __('Top Menu'),
-        'menu_class' => 'top-menu d-flex'
+        'top_menu' => __('Top Menu')
     )
 );
+
+// image size transform all uploaded images into size
+add_image_size('post_iamge', 1100, 750, true);
+
+// add sidebar method
+register_sidebar( array(
+    'name' => 'Page Sidebar',
+    'id' => 'page-sidebar',
+    'class' => '',
+    'before_title' => '<h4>',
+    'after_title' => '</h4>',
+) );
 ?>
