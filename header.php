@@ -14,7 +14,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light px-0">
                 <!-- brand logo -->
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="<?php echo home_url(); ?>">
                     <img src="<?php bloginfo('template_directory'); ?>/assets/images/logo.png" alt="" class="logo">
                 </a>
 
