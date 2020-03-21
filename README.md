@@ -1,12 +1,15 @@
 # FoodivaTheme
  A custom woo-commerce theme.
-
+###
+<p align="left">
+<a href="http://foodivausa.com/">Visit Website</a>
+</p>
 
 # Development
 
-**>>> Getting Started <<<**
+**> Getting Started**
 
-## Download wordpress
+### Download wordpress
 Download new wordpres from https://wordpress.org/download/ and uzip into htdocs folder.
 
 ### Clone Repo
