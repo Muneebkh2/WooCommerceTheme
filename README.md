@@ -2,14 +2,14 @@
  A custom woo-commerce theme.
 
 
-# **Development**
+# Development
 
-## >>> Getting Started <<<
+**>>> Getting Started <<<**
 
-**Download wordpress**
+## Download wordpress
 Download new wordpres from https://wordpress.org/download/ and uzip into htdocs folder.
 
-**Clone Repo**
+### Clone Repo
 Clone the repo on your C:\xampp\htdocs\foodiva\wp-content\themes directory from GitHub.
 
 ## Install JS Dependencies
