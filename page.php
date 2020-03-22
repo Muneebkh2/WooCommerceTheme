@@ -18,9 +18,12 @@
             </div>
             <div class="col-md-10">
                 <div class="main-content">
+                    <?php if(has_post_thumbnail()):?>
                     <!-- images -->
                     <img src="<?php the_post_thumbnail_url('post_image'); ?>" alt="" class="img-fluid mb-3">
                     <?php
+                        endif; // image if(condition) end
+
                         // retirve content from database with wordpress loop 
                         if(have_posts()):while(have_posts()) : the_post();
                         the_content();
