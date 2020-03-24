@@ -137,7 +137,6 @@ h1,h2,h3,h4,h5,h6{
                 transform: scale(1);    
                 height: 240px;
                 border-radius: 8px;
-
             }
 
             h3{
@@ -156,6 +155,49 @@ h1,h2,h3,h4,h5,h6{
                 color: $primary;
                 background-color: $white;
             }
+        }
+    }
+}
+
+// Image Section
+.image_section{
+    background-image: url(./assets/images/banners/banner_3.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+
+    .content{
+        background-color: #fff;
+        padding: 30px 12px;
+        text-align: center;
+        margin-top: 142px;
+        h1{
+            color: $primary;
+        }
+    }
+    .icons{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        ul{
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            li{
+                display: inline-block;
+                width: 31%;
+                text-align: center;
+                background-color: #fff;
+                padding: 40px;
+                border-radius: 10px;
+                img{
+                    width: 120px;
+                    height: 120px;
+                }
+            }        
         }
     }
 }

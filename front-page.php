@@ -8,7 +8,7 @@
         </div>
     </div>
 </div>
-
+<!-- Category Section -->
 <section class="category_sections">
     <div class="container">
         <div class="row py-3 px-2">
@@ -57,7 +57,7 @@
         </div>
     </div>
 </section>
-
+<!-- Products Section -->
 <section class="feature_products_section">
     <div class="container-fluid py-5 px-5">
         <div class="row pb-3">
@@ -131,4 +131,22 @@
         </div>
     </div>
 </section>
+<!-- Image Section -->
+<section class="image_section">
+    <div class="container h-100">
+        <div class="row align-items-center h-100">
+            <div class="content">
+                <h1>We are providing no.1 quality grocrey and spices to everyone</h1>
+            </div>
+            <div class="icons">
+                <ul>
+                    <li><img src="<?php bloginfo('template_directory');?>/assets/images/icons/quality-icon.png"></li>
+                    <li><img src="<?php bloginfo('template_directory');?>/assets/images/icons/health-icon.png"></li>
+                    <li><img src="<?php bloginfo('template_directory');?>/assets/images/icons/star-icon.png"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Brand Section -->
 <?php get_footer();?>
