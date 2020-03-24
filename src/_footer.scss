@@ -1,0 +1,61 @@
+.main_footer{
+    background: #292929;
+    color: #a2a2a2;
+
+    h2{
+        color: #fbfbfb;
+        font-size: 18px;
+    }
+
+    a:hover{
+        color: #e17127!important;
+        text-decoration: underline;
+        text-underline-position: under;
+    }
+
+    // footer menu
+    .menu{
+        ul{
+            list-style: none;
+            padding: 0px;
+            li{
+                text-decoration: none;
+                a{
+                    color: #a2a2a2;
+                }
+            }
+        }
+    }
+
+    // footer contact details
+    address{
+        ul{
+            list-style: none;
+            padding: 0px;
+            li{
+                text-decoration: none;
+                a{
+                    color: #a2a2a2;
+                }
+            }
+        }
+    }
+
+    // copyright footer styling..
+    .footer-bottom{
+        p{
+            margin-bottom: 0px;
+            font-size: 16px;
+            color: #fbfbfb;
+            a{
+                text-decoration: underline;
+                text-underline-position: under;
+                color: #fbfbfb;
+                :hover{
+                    color: #e17127;
+                }
+            }
+        }
+    }
+
+}
