@@ -10186,3 +10186,44 @@ h1, h2, h3, h4, h5, h6 {
   color: #960202;
   background-color: #fff;
 }
+
+.image_section {
+  background-image: url(./assets/images/banners/banner_3.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: bottom;
+}
+.image_section .content {
+  background-color: #fff;
+  padding: 30px 12px;
+  text-align: center;
+  margin-top: 142px;
+}
+.image_section .content h1 {
+  color: #960202;
+}
+.image_section .icons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.image_section .icons ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.image_section .icons ul li {
+  display: inline-block;
+  width: 31%;
+  text-align: center;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+}
+.image_section .icons ul li img {
+  width: 120px;
+  height: 120px;
+}
