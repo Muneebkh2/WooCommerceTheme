@@ -6,6 +6,8 @@
     <!-- google fonts embeded -->
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
     <?php wp_head();?>
+
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/owl.carousel.min.css">
 </head>
 
 <body <?php body_class('main_body')?>>
