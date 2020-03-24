@@ -17897,6 +17897,24 @@ module.exports = g;
 
 __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.js");
 
+jQuery('.owl-carousel').owlCarousel({
+  loop: false,
+  margin: 10,
+  nav: true,
+  items: 4,
+  responsive: {
+    0: {
+      items: 1
+    },
+    600: {
+      items: 2
+    },
+    1000: {
+      items: 5
+    }
+  }
+});
+
 /***/ }),
 
 /***/ "./src/app.scss":
