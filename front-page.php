@@ -149,4 +149,47 @@
     </div>
 </section>
 <!-- Brand Section -->
+<section class="brands_section">
+    <div class="container">
+        <div class="row my-5">
+            <div id="brandCarousel" class="brand-carousel owl-carousel owl-theme">
+                <div class="item">
+                    <div class="card border-1">
+                        <img src="<?php bloginfo('template_directory');?>/assets/images/brands/chinar.jpg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card border-1">
+                        <img src="<?php bloginfo('template_directory');?>/assets/images/brands/mdh.jpg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card border-1">
+                        <img src="<?php bloginfo('template_directory');?>/assets/images/brands/shan.png" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card border-1">
+                        <img src="<?php bloginfo('template_directory');?>/assets/images/brands/dabur.png" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card border-1">
+                        <img src="<?php bloginfo('template_directory');?>/assets/images/brands/haldirams.png" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card border-1">
+                        <img src="<?php bloginfo('template_directory');?>/assets/images/brands/amul.jpg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card border-1">
+                        <img src="<?php bloginfo('template_directory');?>/assets/images/brands/ashoka.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <?php get_footer();?>
