@@ -188,16 +188,64 @@ h1,h2,h3,h4,h5,h6{
             overflow: hidden;
             li{
                 display: inline-block;
-                width: 31%;
+                width: 31.9%;
                 text-align: center;
                 background-color: #fff;
-                padding: 40px;
+                padding: 22px;
                 border-radius: 10px;
+                border: 1px solid $primary;
                 img{
-                    width: 120px;
-                    height: 120px;
+                    width: 105px;
+                    height: 85px;
+                    // width: 120px;
+                    // height: 120px;
                 }
             }        
         }
     }
+}
+
+// Brands Section
+.brands_section{
+    #brandCarousel{
+        .owl-nav button {
+            position: absolute;
+            top: 50%;
+            border: 1px solid $primary;
+            background-color: $white;
+            color: $primary;
+            margin: 0;
+            transition: all 0.3s ease-in-out;
+            &:hover{
+                background-color: $primary;
+                color: $white;
+            }
+        }
+        .owl-nav button.owl-prev,
+        .owl-nav button.owl-next{
+            width: 45px;
+            line-height: 50px;
+            margin-top: -28px;
+            span{
+                font-size: 35px;
+            }
+        }
+        .owl-nav button.owl-prev {
+            left: -90px;
+        }
+        .owl-nav button.owl-next {
+            right: -90px;
+        }
+        .card{
+            height: 200px;
+            border: 1px solid $primary;
+            border-radius: 0px!important;
+            img{
+                padding: 20px;
+                margin: auto;
+                height: 90%;
+            }
+        }
+    }
+
 }
