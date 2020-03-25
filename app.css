@@ -9992,18 +9992,29 @@ header .top-menu li a {
 .wpcf7-form .wpcf7-form-control-wrap {
   width: 100%;
   display: block;
-}
-.wpcf7-form .wpcf7-form-control-wrap .wpcf7-form-control-wrap input,
-.wpcf7-form .wpcf7-form-control-wrap .wpcf7-form-control-wrap textarea {
   padding: 0.5rem;
-  border: 1px solid #e4e4e4 !important;
-  background: #f0f0f0;
-  border: 0;
 }
-.wpcf7-form .wpcf7-form-control-wrap .btn {
+.wpcf7-form .wpcf7-form-control-wrap .form-control {
+  border: 1px solid #960202 !important;
+  border-radius: 0px !important;
+}
+.wpcf7-form .wpcf7-form-control-wrap .form-control:focus, .wpcf7-form .wpcf7-form-control-wrap .form-control:hover {
+  color: #960202;
+  border-color: #960202;
+  box-shadow: 0 0 0 0.2rem rgba(150, 2, 2, 0.25);
+}
+.wpcf7-form .btn {
   padding: 10px 10px;
-  background: #f0f0f0;
+  color: #960202;
+  background-color: #fff;
+  border: 1px solid #960202;
+  border-radius: 0px;
   width: 220px;
+  transition: all 2s;
+}
+.wpcf7-form .btn:hover {
+  color: #fff;
+  background-color: #960202;
 }
 
 .main_footer {
@@ -10217,13 +10228,54 @@ h1, h2, h3, h4, h5, h6 {
 }
 .image_section .icons ul li {
   display: inline-block;
-  width: 31%;
+  width: 31.9%;
   text-align: center;
   background-color: #fff;
-  padding: 40px;
+  padding: 22px;
   border-radius: 10px;
+  border: 1px solid #960202;
 }
 .image_section .icons ul li img {
-  width: 120px;
-  height: 120px;
+  width: 105px;
+  height: 85px;
+}
+
+.brands_section #brandCarousel .owl-nav button {
+  position: absolute;
+  top: 50%;
+  border: 1px solid #960202;
+  background-color: #fff;
+  color: #960202;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+.brands_section #brandCarousel .owl-nav button:hover {
+  background-color: #960202;
+  color: #fff;
+}
+.brands_section #brandCarousel .owl-nav button.owl-prev,
+.brands_section #brandCarousel .owl-nav button.owl-next {
+  width: 45px;
+  line-height: 50px;
+  margin-top: -28px;
+}
+.brands_section #brandCarousel .owl-nav button.owl-prev span,
+.brands_section #brandCarousel .owl-nav button.owl-next span {
+  font-size: 35px;
+}
+.brands_section #brandCarousel .owl-nav button.owl-prev {
+  left: -90px;
+}
+.brands_section #brandCarousel .owl-nav button.owl-next {
+  right: -90px;
+}
+.brands_section #brandCarousel .card {
+  height: 200px;
+  border: 1px solid #960202;
+  border-radius: 0px !important;
+}
+.brands_section #brandCarousel .card img {
+  padding: 20px;
+  margin: auto;
+  height: 90%;
 }
