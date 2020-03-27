@@ -8,6 +8,52 @@
 h1,h2,h3,h4,h5,h6{
     font-family: 'Lora', serif;
 }
+.offical-color{
+    color: $primary;
+}
+.font-24{
+    font-size: 24px;
+}
+
+.page-main-title{
+    color: $primary;
+    text-align: center;
+    margin: 1.8rem auto;
+    font-size: 28px;
+    padding: 0px 8rem;
+}
+
+//cart icon
+a.cart-contents{
+    color: $primary;
+}
+.cart-contents:before {
+    font-family:WooCommerce;
+    content: "\e01d";
+    font-size:28px;
+    margin-top:10px;
+    font-style:normal;
+    font-weight:400;
+    padding-right:5px;
+    vertical-align: bottom;
+}
+.cart-contents:hover {
+    text-decoration: none;
+}
+.cart-contents-count {
+    color: $white;
+    background-color: $primary;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 1px 4px;
+    // padding: 1px 6px;
+    line-height: 1.5;
+    // line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: top;
+    margin-left: -14px;
+    font-size: 12px;
+}
 
 #hero{
     position: relative;
@@ -236,7 +282,7 @@ h1,h2,h3,h4,h5,h6{
         .owl-nav button.owl-next {
             right: -90px;
         }
-        .card{
+        .card{  
             height: 200px;
             border: 1px solid $primary;
             border-radius: 0px!important;
@@ -248,4 +294,19 @@ h1,h2,h3,h4,h5,h6{
         }
     }
 
+}
+
+// Brands Cards
+.brands-card{
+    height: 200px;
+    border: 1px solid #960202;
+    border-radius: 0px !important;
+    margin-bottom: 30px;
+    img{
+        padding: 30px 70px;
+        // padding: 20px;
+        margin: auto;
+        height: 90%;
+        width: 100%;
+    }
 }
