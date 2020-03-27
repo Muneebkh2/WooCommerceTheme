@@ -19,7 +19,13 @@ get_header();?>
         <div class="row py-5">
             <div class="col-lg-12 col-md-12 col-12">
                 <div class="main-content">
+                    <?php if(has_post_thumbnail()):?>
+                    <div class="page-banner">
+                        <!-- images -->
+                        <img src="<?php the_post_thumbnail_url('post_image'); ?>" alt="" class="img-fluid mb-3 w-100 rounded">
+                    </div>
                     <?php
+                        endif; // image if(condition) end
                         // retirve content from database with wordpress loop 
                         if(have_posts()):while(have_posts()) : the_post();
                         the_content();
@@ -30,3 +36,5 @@ get_header();?>
         </div>
     </div>
 </section>
+
+<?php get_footer();?>
