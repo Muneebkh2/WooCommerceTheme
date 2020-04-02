@@ -1,4 +1,5 @@
-<?php get_header();?>
+<?php get_header('header.php');?>
+
 
 <div id="hero">
     <div class="container-fluid d-flex align-items-center justify-content-center h-100">
